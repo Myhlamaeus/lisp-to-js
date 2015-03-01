@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "cli": "^0.6.5",
-    "lisp-array-to-js": "^0.1.1",
+    "lisp-array-to-js": "^0.2.0",
     "lisp-to-array": "^0.1.0"
   },
   "bin": "./cli.js"
