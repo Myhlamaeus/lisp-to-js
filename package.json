@@ -1,6 +1,6 @@
 {
   "name": "lisp-to-js",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "lisp-to-js",
   "main": "lisp-to-js.js",
   "scripts": {
