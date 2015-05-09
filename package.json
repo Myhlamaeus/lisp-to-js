@@ -8,9 +8,9 @@
     "url": "https://github.com/ileri/lisp-to-js/issues"
   },
   "dependencies": {
-    "cli": "^0.6.5",
-    "lisp-array-to-js": "^0.2.0",
-    "lisp-to-array": "^0.1.0"
+    "cli": "^0.6.6",
+    "lisp-array-to-js": "^0.4.0",
+    "lisp-to-array": "^0.1.3"
   },
   "devDependencies": {
     "babel": "^5.2.17",
