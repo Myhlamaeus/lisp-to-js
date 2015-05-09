@@ -1,7 +1,7 @@
 {
   "name": "lisp-to-js",
   "main": "lisp-to-js.js",
-  "version": "0.0.0",
+  "version": "0.3.0",
   "homepage": "https://github.com/ileri/lisp-to-js",
   "authors": [
     "Malte-Maurice Dreyer <dreyer.maltem+dev@gmail.com>"
