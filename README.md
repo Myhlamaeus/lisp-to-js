@@ -1,2 +1,2 @@
-# lisp-to-js
+# lisp-to-js [![Code Climate](https://codeclimate.com/github/ileri/lisp-to-js/badges/gpa.svg)](https://codeclimate.com/github/ileri/lisp-to-js) [![Build Status](https://travis-ci.org/ileri/lisp-to-js.svg)](https://travis-ci.org/ileri/lisp-to-js) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 > Transpiles lisp code to JS code
