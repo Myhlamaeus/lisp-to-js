@@ -1,22 +1,17 @@
 {
   "name": "lisp-to-js",
-  "version": "0.2.1",
   "description": "Transpiles lisp code to JS code",
-  "main": "dist/lisp-to-js.js",
-  "scripts": {
-    "prepublish": "gulp build",
-    "test": "standard {test/,lib/,./}*.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ileri/lisp-to-js.git"
-  },
+  "version": "0.2.1",
   "author": "Malte-Maurice Dreyer <dreyer.maltem+dev@gmail.com>",
-  "license": "MIT",
+  "bin": "dist/cli.js",
   "bugs": {
     "url": "https://github.com/ileri/lisp-to-js/issues"
   },
-  "homepage": "https://github.com/ileri/lisp-to-js",
+  "dependencies": {
+    "cli": "^0.6.5",
+    "lisp-array-to-js": "^0.2.0",
+    "lisp-to-array": "^0.1.0"
+  },
   "devDependencies": {
     "babel": "^5.2.17",
     "gulp": "^3.8.11",
@@ -24,10 +19,15 @@
     "gulp-replace": "^0.5.3",
     "gulp-sourcemaps": "^1.5.2"
   },
-  "dependencies": {
-    "cli": "^0.6.5",
-    "lisp-array-to-js": "^0.2.0",
-    "lisp-to-array": "^0.1.0"
+  "homepage": "https://github.com/ileri/lisp-to-js",
+  "license": "MIT",
+  "main": "dist/lisp-to-js.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ileri/lisp-to-js.git"
   },
-  "bin": "dist/cli.js"
+  "scripts": {
+    "prepublish": "gulp build",
+    "test": "standard {test/,lib/,./}*.js"
+  }
 }
