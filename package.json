@@ -1,7 +1,7 @@
 {
   "name": "lisp-to-js",
   "description": "Transpiles lisp code to JS code",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "author": "Malte-Maurice Dreyer <dreyer.maltem+dev@gmail.com>",
   "bin": "dist/cli.js",
   "bugs": {
